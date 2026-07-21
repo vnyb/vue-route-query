@@ -1,6 +1,6 @@
 {
   "name": "@chronicstone/vue-route-query",
-  "version": "1.0.3",
+  "version": "1.1.0-vnyb.0",
   "description": "Type-safe URL query parameter synchronization for Vue 3 with Zod validation",
   "keywords": [
     "vue",
@@ -14,14 +14,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vue-route-query.git"
+    "url": "https://github.com/vnyb/vue-route-query.git"
   },
   "license": "MIT",
-  "author": "Your Name",
+  "author": "vnyb",
   "bugs": {
-    "url": "https://github.com/yourusername/vue-route-query/issues"
+    "url": "https://github.com/vnyb/vue-route-query/issues"
   },
-  "homepage": "https://github.com/chronicstone/vue-route-query#readme",
+  "homepage": "https://github.com/vnyb/vue-route-query#readme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,10 +34,15 @@
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      "*": ["./dist/*", "./dist/index.d.ts"]
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
